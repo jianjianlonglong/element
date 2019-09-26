@@ -23,10 +23,10 @@
       @mouseenter="onMouseenter('right')"
       @mouseleave="quicknextIconClass = 'el-icon-more'">
     </li>
-    <li
+    <!--<li
       :class="{ active: currentPage === pageCount, disabled }"
       class="number"
-      v-if="pageCount > 1">{{ pageCount }}</li>
+      v-if="pageCount > 1">{{ pageCount }}</li>-->
   </ul>
 </template>
 
